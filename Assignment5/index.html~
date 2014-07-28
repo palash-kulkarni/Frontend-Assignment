@@ -9,16 +9,15 @@
 	
 	<body>
 		<div class="header wrapper">
-			<a href="#" class="logo"></a>
+			<a href="#"><div class="logo"></div></a>
 			
 				<a href="#" class="login">LOGIN</a>
-				
 			<ul>
 				<li><a href="#">FAQ</a></li>
 				<li><a href="#">PRICING</a></li>
 				<li><a href="#">TOUR</a></li>
 				<li><a href="#" class="home">HOME</a></li>
-				<li div class="clearFix"></li>
+				<li><div class="clearFix"></div></li>
 			</ul>
 			    <div class="clearFix"></div>
 		</div>
@@ -35,7 +34,7 @@
 		
 		<div class="contentBackground">
 			<div class="contentWrapper wrapper">
-				<h2>Some <strong>Features</strong> of the Learning Management Systems</h2>
+				<p>Some <strong>Features</strong> of the Learning Management Systems</p>
 				
 			<ul>
 				<li>
@@ -120,7 +119,7 @@
 				</ul>
 					<div class="clearFix"></div>
 					
-					<span>© 2013  All Rights Reserved</span>
+					<h4>© 2013  All Rights Reserved</h4>
 					
 				<ul class="termsUlFloatLeft">
 					<li class="termsLiFloatLeft"><a href="#">Terms of services</a></li>

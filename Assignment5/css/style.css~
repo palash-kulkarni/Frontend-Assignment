@@ -1,7 +1,7 @@
 html, body, div, span,
 h1, h2, h3, h4, h5, h6,em, img, q,ol,
 ul, li,table, tr, th,
-td,canvas,footer, header,p{
+td,canvas,footer, header{
  margin:0;
  padding:0;
  border:0;
@@ -9,10 +9,6 @@ td,canvas,footer, header,p{
  vertical-align:baseline;
  background:transparent;
  list-style:none;
- font-style:normal;
- font-weight:normal;
- font-size: 100%;
- font: inherit;
 }
 
 @font-face {
@@ -117,7 +113,7 @@ td,canvas,footer, header,p{
  background-image : url('../images/LMS_Logo.png');
  background-repeat : no-repeat;
  float : left;
- margin : 14px auto;
+ margin : 14px auto 13px;
 }
 
 a{
@@ -145,10 +141,9 @@ a.login{
  border-style : solid;
  border-width : 2px;
  font-size : 14px;
- padding : 6px 10px 6px 11px;
+ padding : 8px 10px 8px 11px;
  border-radius : 4px;
  float : right;
- line-height : 18px;
  margin : 10px 0px 10px 36px;
 }
 
@@ -172,7 +167,8 @@ a.login{
 .bannerContent{
  width : 380px;
  float : right;
- margin : 47px 18px 0px 0px;
+ margin : 47px 0px 0px 0px;
+ padding : 0px 18px 0px 0px;
  font-family : opensans light,times new roman;
 }
 
@@ -201,7 +197,7 @@ h1{
  padding : 77px 0px 20px 0px;
 }
 
-.contentWrapper h2{
+.contentWrapper p{
  font-family : ubuntu light;
  font-size : 36px;
  line-height : 38px;
@@ -283,8 +279,7 @@ a.circle{
 }
  .contentWrapper ul li h3{
   font-size : 14px;
-  font-family : arial;
-  font-weight : bold;
+  font-family : arial bold;
   text-align : center;
   margin-bottom : 16px;
   color : #444444;
@@ -300,10 +295,12 @@ a.circle{
  
 .footerBackground{
  Background-color : #555555;
+ padding-bottom : 197px;
 }
 
 .footerTop{
- border-bottom : 1px solid #000000;
+ border-bottom : solid;
+ border-color : #000000;
  margin-bottom : 28px;
 }
 
@@ -328,10 +325,6 @@ a.circle{
  float : right;
  margin : 20px 0px;
  border-radius : 4px;
-}
-
-.footerBackground .wrapper{
- padding-bottom : 197px;
 }
 
 .footerBackground ul{
@@ -384,7 +377,7 @@ a.circle1{
  background: url('../images/gPlusIcon.png') center center no-repeat;
 }
 
-.wrapper span{
+h4{
  color : #222222;
  font-family : titillium regular;
  margin-right :26px;
