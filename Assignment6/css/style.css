@@ -1,0 +1,448 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6,em, img, q,ol,
+ul, li,table, tr, th,
+td,canvas,footer, header,p{
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ vertical-align:baseline;
+ background:transparent;
+ list-style:none;
+ font-style:normal;
+ font-weight:normal;
+ font-size: 100%;
+ font: inherit;
+}
+
+@font-face {
+    font-family: 'oxygen bold';
+    src: url('../fonts/oxygen-bold.eot');
+    src: url('../fonts/oxygen-bold.eot') format('embedded-opentype'),
+         url('../fonts/oxygen-bold.woff') format('woff'),
+         url('../fonts/oxygen-bold.ttf') format('truetype'),
+         url('../fonts/oxygen-bold.svg#OxygenBold') format('svg');
+}
+
+@font-face {
+	font-family: 'minionpro regular';
+	src: url('../fonts/MinionPro-Regular.eot');
+	src: url('../fonts/MinionPro-Regular.eot') format('embedded-opentype'),
+		 url('../fonts/MinionPro-Regular.woff') format('woff'),
+		 url('../fonts/MinionPro-Regular.ttf') format('truetype'), 
+		 url('../fonts/MinionPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygen regular';
+    src: url('../fonts/oxygen-regular.eot');
+    src: url('../fonts/oxygen-regular.eot') format('embedded-opentype'),
+         url('../fonts/oxygen-regular.woff') format('woff'),
+         url('../fonts/oxygen-regular.ttf') format('truetype'),
+         url('../fonts/oxygen-regular.svg#OxygenRegular') format('svg');
+}
+
+
+a{
+ text-decoration : none;
+ color : #42aae4;
+}
+
+.wrapper{
+	margin : 0px auto;
+	width : 940px;
+}
+
+.header{
+	font-family : oxygen bold,times new roman;
+	font-size : 14px;
+	line-height : 16px;
+}
+
+.logo{
+	background : url('../images/logo.png') no-repeat;
+	margin : 6px 0px 4px 0px;
+	float : left;
+	width : 120px;
+	height : 45px;
+}
+
+a.circleSocialIcons{
+	width : 24px;
+	height : 24px;
+	border-radius : 12px;
+	background-color : #42aae4;
+	display : block;
+}
+
+.clearFix{
+	float : none;
+	clear : both;
+}
+
+.header ul{
+	float : right;
+	margin : 16px 0px 0px 42px;
+}
+
+.header ul li{
+	float : left;
+	margin : 0px 0px 0px 5px;
+}
+
+.gPlusIcon{
+	background : url('../images/gPlusIcon.png') center center no-repeat;
+}
+
+.pintrestIcon{
+	background : url('../images/pintrestIcon.png') center center no-repeat;
+}
+
+.twitterIcon{
+	background : url('../images/twitterIcon.png') center center no-repeat;
+}
+
+.facebookIcon{
+	background : url('../images/facebookIcon.png') center center no-repeat;
+}
+
+.header li.endSocialIcon{
+	margin : 0px 0px;
+}
+
+.header ul.menu{
+	float : right;
+	margin : 20px 0px 0px 0px;
+}
+
+ul.menu li{
+	float : left;
+	margin : 0px 0px 0px 26px;
+}
+
+.header li.endMenu{
+	margin : 0px 0px;
+}
+
+.bannerBackground{
+	background : url('../images/banner.jpg') center center no-repeat #b8d3f0;
+	height : 545px;
+}
+
+.bannerContent{
+	float : right;
+	width : 348px;
+	margin-top : 81px;
+}
+
+.bannerContent h1{
+	font-family : oxygen bold, times new roman;
+	font-size : 44px;
+	line-height : 36px;
+	margin : 0px 0px 30px 0px;
+}
+
+.bannerContent  span{
+	font-family : minionpro regular;
+	font-size : 22px;
+	line-height : 20px;
+}
+
+.navigationBackground{
+	background-color : #2e84b3;
+	padding : 18px 0px 20px 0px;
+}
+
+.navigationBackground ul.navigation{
+	float : left;
+}
+
+.navigation li{
+	margin-right : 16px;
+	float : left;
+}
+
+
+.navigation li.lastLi{
+	margin-right : 0px;
+}
+
+a.navigationButton{
+	color : #ffffff;
+	border : solid 2px;
+	width : 184px;
+	font-size : 22px;
+	padding : 16px 13px 15px 19px;
+	float : left;
+	font-family : oxygen regular;
+	border-radius : 6px;
+	border-width : 2px;
+}
+
+
+a span{
+	width : 25px;
+	height : 25px;
+	float : right;
+}
+
+.imageTag{
+	display : block;
+}
+
+.buttonCircle{
+ background: url('../images/buttonCircle.png') center center no-repeat;
+}
+
+.content{
+	padding : 67px 0px 71px 0px;
+	background-color : #ffffff;
+}
+
+.content h2{
+	font-family : oxygen bold,times new roman;
+	font-size : 40px;
+	line-height : 28px;
+	margin-bottom : 23px;
+	color : #42aae4;
+}
+
+.content li{
+	margin-right : 20px;
+	float : left;
+}
+
+.content ul{
+	margin-top : 23px;
+}
+.liContent span{
+	font-family : oxygen bold;
+	font-size : 11px;
+}
+
+.liContent h3{
+	font-family : oxygen bold;
+	font-size : 18px;
+	margin : 8px 0px 20px 0px;
+}
+
+.liContent{
+	width : 272px;
+	padding : 20px 14px 21px 14px;
+	background-color : #2e84b3;
+	color : #ffffff;
+}
+
+.liContent p{
+	font-size : 12px;
+	font-family : minion pro regular;
+}
+
+.footerBackground{
+	background-color : #444444;
+	padding : 29px 0px 128px 0px;
+}
+
+.footerMenu ul li{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 162px;
+	float : left;
+}
+
+.content ul li.lastLi{
+	margin-right : 0px;
+}
+
+.content li.clearFix{
+	float : none;
+	clear : both;
+}
+
+.thingsToDo{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.thingsToDo ul.top{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin : 28px 0px 15px 0px;
+}
+.thingsToDo ul.bottom{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin : 0px 0px 0px 0px;
+}
+
+.decorationNone{
+	text-decoration : none;
+	color : #ffffff;
+}
+
+.placesToStay{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.placesToStay ul.top{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 28px 0px 15px 0px;
+}
+
+
+.placesToStay ul.bottom{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 0px 0px;
+}
+
+.corporates{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.corporates ul.top{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 28px 0px 15px 0px;
+}
+
+.corporates ul.bottom{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 0px 0px;
+}
+
+.weddings{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.weddings ul{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 28px 0px 15px 0px;
+}
+
+.bookings{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.bookings ul{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 28px 0px 15px 0px;
+}
+
+.bottomFooter{
+	padding : 20px 0px 0px 0px;
+	border-top : 1px solid #dadada;
+	text-align : center;
+}
+
+.bottomFooter ul{
+	font-size : 12px;
+	line-height : 20px;
+	font-family : oxygen bold;
+	color : #ffffff;
+	display : inline-block;
+	margin-bottom : 13px;
+	margin : 0px 0px 13px 0px;
+}
+
+.bottomFooter ul li {
+	border-right : 1px solid #dadada;
+	padding : 0px 8px 0px 8px;
+	float : left;
+}
+
+.bottomFooter  ul li.clearFix{
+	float : none;
+	clear : both;
+}
+
+.thingsToDo span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+	margin-bottom : 18px;
+}
+.placesToStay span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+}
+.weddings span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+}
+.corporates span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+}
+.bookings span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+}
+
+.bottomFooter span{
+	font-size : 14px;
+	font-family :minionpre regular;
+	color : #aaaaaa;
+	line-height : 20px;
+	text-align : center;
+	display : block;
+}
+
+.bottomFooter ul li.endLi{
+	padding : 0px 0px 0px 8px;
+	border-right : none;
+}
+
