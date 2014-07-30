@@ -35,6 +35,16 @@ td,canvas,footer, header,p{
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'oxygen regular';
+    src: url('../fonts/oxygen-regular.eot');
+    src: url('../fonts/oxygen-regular.eot') format('embedded-opentype'),
+         url('../fonts/oxygen-regular.woff') format('woff'),
+         url('../fonts/oxygen-regular.ttf') format('truetype'),
+         url('../fonts/oxygen-regular.svg#OxygenRegular') format('svg');
+}
+
+
 a{
  text-decoration : none;
 }
@@ -63,7 +73,7 @@ a.circleSocialIcons{
 	height : 24px;
 	border-radius : 12px;
 	background-color : #42aae4;
-	display : inline-block;
+	display : block;
 }
 
 .clearFix{
@@ -73,11 +83,11 @@ a.circleSocialIcons{
 
 .header ul{
 	float : right;
-	margin : 16px 0px 15px 42px;
+	margin : 16px 0px 0px 42px;
 }
 
 .header ul li{
-	float : right;
+	float : left;
 	margin : 0px 0px 0px 5px;
 }
 
@@ -103,11 +113,11 @@ a.circleSocialIcons{
 
 .header ul.menu{
 	float : right;
-	margin : 22px 0px 21px 0px;
+	margin : 20px 0px 0px 0px;
 }
 
 ul.menu li{
-	float : right;
+	float : left;
 	margin : 0px 0px 0px 26px;
 }
 
@@ -123,16 +133,17 @@ ul.menu li{
 .bannerContent{
 	float : right;
 	width : 348px;
+	margin-top : 81px;
 }
 
 .bannerContent h1{
 	font-family : oxygen bold, times new roman;
 	font-size : 44px;
 	line-height : 36px;
-	margin : 80px 0px 30px 0px;
+	margin : 0px 0px 30px 0px;
 }
 
-.bannerContent  h3{
+.bannerContent  span{
 	font-family : minionpro regular;
 	font-size : 22px;
 	line-height : 20px;
@@ -140,16 +151,18 @@ ul.menu li{
 
 .navigationBackground{
 	background-color : #2e84b3;
-}
-
-.navigation{
 	padding : 18px 0px 20px 0px;
 }
 
-.navigation li{
-	margin-right : 20px;
-	display : inline-block;
+.navigationBackground ul.navigation{
+	float : left;
 }
+
+.navigation li{
+	margin-right : 16px;
+	float : left;
+}
+
 
 .navigation li.lastLi{
 	margin-right : 0px;
@@ -158,11 +171,9 @@ ul.menu li{
 a.navigationButton{
 	color : #ffffff;
 	border : solid 2px;
-	float : left;
-	width : 216px;
+	width : 184px;
 	font-size : 22px;
-	line-height : 56px;
-	padding : 15px 13px 17px 19px;
+	padding : 16px 13px 15px 19px;
 	float : left;
 	font-family : oxygen regular;
 	border-radius : 6px;
@@ -170,25 +181,23 @@ a.navigationButton{
 }
 
 
-a span.circle{
-	width : 23px;
-	height : 23px;
-	border-style : solid;
-	border-radius : 12.5px;
-	border-width : 2px;
-	background-color : #2e84b3;
-	border-color : #ffffff;
+a span{
+	width : 25px;
+	height : 25px;
 	float : right;
-	margin : 16px 0px 15px 0px;
-	
 }
 
-.buttonSymbol{
- background: url('../images/buttonSymbol.png') center center no-repeat;
+.imageTag{
+	display : block;
+}
+
+.buttonCircle{
+ background: url('../images/buttonCircle.png') center center no-repeat;
 }
 
 .content{
 	padding : 67px 0px 71px 0px;
+	background-color : #ffffff;
 }
 
 .content h2{
@@ -227,5 +236,212 @@ a span.circle{
 
 .liContent p{
 	font-size : 14px;
-	font-style : minion pro regular;
+	font-family : minion pro regular;
 }
+
+.footerBackground{
+	background-color : #444444;
+	padding : 29px 0px 128px 0px;
+}
+
+.footerMenu ul li{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 162px;
+	float : left;
+}
+
+.content ul li.lastLi{
+	margin-right : 0px;
+}
+
+.content li.clearFix{
+	float : none;
+	clear : both;
+}
+
+.thingsToDo{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.thingsToDo ul.top{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin : 28px 0px 15px 0px;
+}
+.thingsToDo ul.bottom{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin : 0px 0px 0px 0px;
+}
+
+.decorationNone{
+	text-decoration : none;
+	color : #ffffff;
+}
+
+.placesToStay{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.placesToStay ul.top{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 28px 0px 15px 0px;
+}
+
+
+.placesToStay ul.bottom{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 0px 0px;
+}
+
+.corporates{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.corporates ul.top{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 28px 0px 15px 0px;
+}
+
+.corporates ul.bottom{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 0px 0px;
+}
+
+.weddings{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.weddings ul{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 28px 0px 15px 0px;
+}
+
+.bookings{
+	font-size : 14px;
+	font-family : oxygen bold;
+	width : 160px;
+	margin : 0px 28px 27px 0px;
+	float : left;
+}
+
+.bookings ul{
+	font-size : 14px;
+	font-family : minionpro regular;
+	line-height : 20px;
+	margin-bottom : 15px;
+	margin : 28px 0px 15px 0px;
+}
+
+.bottomFooter{
+	padding : 20px 0px 0px 0px;
+	border-top : 1px solid #dadada;
+	text-align : center;
+}
+
+.bottomFooter ul{
+	font-size : 12px;
+	line-height : 20px;
+	font-family : oxygen bold;
+	color : #ffffff;
+	display : inline-block;
+	margin-bottom : 13px;
+	margin : 0px 0px 13px 0px;
+}
+
+.bottomFooter ul li {
+	border-right : 1px solid #dadada;
+	padding : 0px 8px 0px 8px;
+	float : left;
+}
+
+.bottomFooter  ul li.clearFix{
+	float : none;
+	clear : both;
+}
+
+.thingsToDo span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+	margin-bottom : 18px;
+}
+.placesToStay span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+}
+.weddings span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+}
+.corporates span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+}
+.bookings span{
+	font-size : 14px;
+	font-family : oxygen bold;
+	color : #aaaaaa;
+	line-height : 14px;
+	text-align : center;
+}
+
+.bottomFooter span{
+	font-size : 14px;
+	font-family :minionpre regular;
+	color : #aaaaaa;
+	line-height : 20px;
+	text-align : center;
+	display : block;
+}
+
+.bottomFooter ul li.endLi{
+	padding : 0px 0px 0px 8px;
+	border-right : none;
+}
+
