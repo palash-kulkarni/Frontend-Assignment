@@ -1,0 +1,260 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6,
+p,em, img, q,strong,ol,
+ul, li,table, tr, th,
+td,canvas,footer, header{
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+ list-style:none;
+}
+
+body{
+	font-family : arial; 
+}
+
+#headerBackground{
+ background-color : #444444; 
+ height :60px;
+}
+
+.headerContainer{
+ width : 940px;
+ margin : 0px auto;
+ font-size : 18px;
+ color : #aaaaaa;
+ }
+
+.logo{
+ float : left;
+ margin : 12px 54px 12px 0px;
+}
+
+ul{
+ margin : 0px;
+ padding :0px;
+ float : left;
+}
+
+ul li{
+ float : left;
+}
+
+.headerContainer li a{
+    display: block;
+    text-decoration: none;
+    color: #aaaaaa;
+    padding: 19px 26px 19px 26px;
+    border-left : 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.headerList{
+ border-style : solid;
+ border-color : black;
+ padding : 5px 25px;
+ float : left;
+}
+
+.viewButton{
+ float : left;
+ background-color : #f2f2f2;
+ height : 47px;
+ width : 170px;
+ border : solid;
+ border-width : 0px;
+ border-radius : 3px;
+}
+
+.joinNowButton{
+ float : right;
+ background-color : #ff9900;
+ height : 47px;
+ width : 170px;
+ border : solid;
+ border-width : 0px;
+ border-radius : 3px;
+}
+
+.buttonContainer{
+ width : 361;
+ height : 47px;
+}
+
+h1{
+ font-size : 38px;
+ color : #ffffff;
+ padding : 147px 0px 0px;
+ line-height : 40px;
+}
+
+h2{
+ font-size : 26px;
+ color : #fefefe;
+ line-height : 28px;
+ padding: 0px 0px 47px 0px;
+}
+
+.viewButton h4{
+ font-size : 20px;
+ color : #222222;
+ line-height : 47px;
+}
+
+.joinNowButton h4{
+ font-size : 20px;
+ color : #ffffff;
+ line-height : 47px;
+}
+
+.viewButton a{
+ text-decoration : none;
+ text-align : center;
+}
+
+.joinNowButton a{
+ text-decoration : none;
+ text-align : center;
+}
+
+#bannerBackground{
+ background-image: url('../images/backgroundBanner.png');
+ background-repeat: repeat; 
+ height : 486px;
+}
+
+.artFrames{
+ float : right;
+ margin : 49px 5px 0px 0px;
+}
+
+.bannerContainer{
+ width : 940px;
+ margin : 0px auto;
+} 
+
+.bannerContent{
+ float : left;
+}
+
+#contentBackground{
+ background-color : #ffffff; 
+ /*height : 504px;*/
+}
+
+.contentContainer{
+ width : 940px;
+ padding  : 64px 0px 0px 0px; 
+ margin : 0px auto;
+}
+
+.howItWorks{
+ height : 36px;
+}
+
+.howItWorks h4{
+ font-size : 26px;
+ color : #444444;
+ text-align : center;
+}
+
+.circle{
+ width: 140px;
+ height: 140px; 
+ background-color: #efefef; 
+ border-radius: 70px;
+ margin:0px auto 25px;
+}
+
+.iconContainer{
+ margin : 75px 0px 0px 80px;
+}
+
+h3{
+ font-size : 16px;
+ color : #888888;
+ clear : both;
+ text-align : center;
+}
+.iconList{
+ margin : 0px 75px 0px 0px;
+ width : 140;
+ float : left;
+}
+
+.circle img{
+ padding : 45px 40px;
+}
+
+.clearFix{
+ clear : both;
+}
+
+.footerBackground{
+ background-color : #ececec;
+ margin-top : 115px;
+ height :160px;
+}
+
+.footerContainer{
+ width : 940px;
+ margin : 0px auto;
+}
+
+.footerMenu{
+ margin : 30px 16px 0px 0px;
+ color : #ff8000;
+ float : left;
+}
+
+.footerMenuContainer{
+ float : left;
+}
+
+.footerLogo{
+ float :right;
+ margin-top : 20px;
+}
+
+.footerLogo img{
+ margin : 0px 7px;
+}
+
+.homeColor{
+ margin-top : 30px;
+}
+
+.homeColor a{
+ margin : 0px 16px 0px 0px;
+ color : #444444;
+ font-size : 14px;
+ text-decoration : none;
+}
+
+.footerMenu a{
+    display: block;
+    text-decoration: none;
+    color: #ff8000;
+}
+
+.iconContainer ul li{
+ text-decoration : none;
+}
+
+.bottomContainer{
+ font : 14px;
+ color : #aaaaaa;
+}
+
+.copyright{
+ float : left;
+}
+
+.termsOfService{
+ float : right;
+}
+

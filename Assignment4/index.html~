@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<title>
+			ArtForth
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="headerBackground">
+			<div class="headerContainer">
+				<div class="logo">
+					<a href="#"><img src="images/artFourthLogo.png"></img></a>
+				</div>
+					
+					<ul>
+					   <li><a href="#">THE GALLERY</a></li>
+						
+						<li><a href="#">HOW IT WORKS</a></li>
+						
+						<li><a href="#">HELP</a></li>
+						
+						<li><div class="clearFix"></div></li>
+					</ul>
+			</div>
+		</div>
+
+		<div id="bannerbackground">
+			<div class="bannerContainer">
+			<div class="artFrames">
+				<img src="images/artFrames.png"></img>
+			</div>
+			<div class="bannerContent">
+				<h1>Your Moods Change</h1>
+				<h2>So should the art on your walls!</h2>
+				<div class="buttonContainer">
+				<div class="viewButton"><a href="#"><h4>VIEW GALLERY</h4></a></div>
+				<div class="joinNowButton"><a href="#"><h4>JOIN NOW</h4></a></div>
+					<div class="clearFix"></div>
+				</div>
+			</div>
+				<div class="clearFix"></div>
+			</div>
+		</div>	
+		
+		<div id="contentBackground">
+			<div class="contentContainer">
+				<div class="howItWorks"><h4>HOW IT WORKS</h4></div>
+				 <div class="iconContainer">
+						<ul>				
+							<li>
+								<div class="iconList">
+									<div class="circle">
+										<img src="images/icon1.png"></img>
+									</div>
+										<h3>Add art to your queue online</h3>
+									</div>
+								</div>
+							</li>	
+							
+							<li>
+								<div class="iconList">
+									<div class="circle">
+										<img src="images/icon2.png"></img>
+									</div>
+										<h3>Receive art at your home in the order you specify </h3>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="iconList">
+									<div class="circle">
+										<img src="images/icon3.png"></img>
+									</div>
+										<h3>Keep the art for as long as you like. Buy only what you love</h3>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								
+									<div class="iconList">
+										<div class="circle">
+											<img src="images/icon4.png"></img>
+										</div>
+											<h3>Keep the art for as long as you like. Buy only what you love</h3>
+									</div>
+								
+							</li>
+							<li><div class="clearFix"></div></li>
+						</ul>
+						<div class="clearFix"></div>
+					</div>
+				</div>
+			</div>		
+			
+		 <div class="footerBackground">
+			<div class="footerContainer">
+				<div class="footerMenuContainer">
+					<ul>						
+					    <li><div class="homeColor"><a href="#">HOME</a></div></li>
+						<li><div class="footerMenu"><a href="#">THE GALLERY</a></div></li>
+						<li><div class="footerMenu"><a href="#">HOW IT WORKS</a></div></li>
+						<li><div class="footerMenu"><a href="#">HELP</a></div></li>
+						<li><div class="clearFix"></div></li>
+					</ul>
+					  
+				</div>
+				
+				<div class="footerLogo">
+					<ul>						
+					    <li><a href="#"><img src="images/logo1.png"></img></a></li>
+						<li><a href="#"><img src="images/logo2.png"></img></a></li>
+						<li><a href="#"><img src="images/logo3.png"></img></a></li>
+						<li><a href="#"><img src="images/logo4.png"></img></a></li>
+						<li><div class="clearFix"></div></li>
+					</ul>
+						<div class="clearFix"></div>
+				</div>
+				<div class="bottomContainer">
+						<div class="copyright">© 2013 Art Forth All Rights Reserved</div>
+						<div class="termsOfService"></div>
+				</div> 
+			</div>
+		 </div>
+	</body>
+</html>

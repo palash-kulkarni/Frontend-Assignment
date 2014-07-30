@@ -1,0 +1,182 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6,
+p,em, img, q,strong,ol,
+ul, li,table, tr, th,
+td,canvas,footer, header{
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+#headerBackground{
+ background-color : #444444; 
+ height : 50px; 
+}
+
+.headerContainer{
+ width : 940px;
+ margin : 0px auto;
+ font-family : myriad pro,arial;
+ font-size : 18px;
+ color : #aaaaaa;
+ }
+
+.logo{
+ float : left;
+ margin : 9px 54px 9px 0px;
+}
+
+ul{
+ margin : 0px;
+ padding :0px;
+ float : left;
+}
+
+.divider{
+ margin : 0px;
+ float : left;
+}
+
+ul li{
+ padding:0px 25px;
+ float : left;
+}
+
+ul li a{
+ color : #aaaaaa;
+ line-height : 50px;
+ text-decoration : none;
+}
+
+.viewButton{
+ float : left;
+ background-color : #f2f2f2;
+ height : 47px;
+ width : 170px;
+ border : solid;
+ border-width : 0px;
+ border-radius : 3px;
+}
+
+.joinNowButton{
+ float : right;
+ background-color : #ff9900;
+ height : 47px;
+ width : 170px;
+ border : solid;
+ border-width : 0px;
+ border-radius : 3px;
+}
+
+.buttonContainer{
+ width : 361;
+ height : 47px;
+}
+
+h1{
+ font-size : 48px;
+ color : #ffffff;
+ padding : 147px 0px 0px;
+ line-height : 50px;
+}
+
+h3{
+ font-size : 36px;
+ color : #fefefe;
+ line-height : 38px;
+ padding: 0px 0px 47px 0px;
+}
+
+.viewButton h4{
+ font-size : 20px;
+ color : #222222;
+ line-height : 47px;
+}
+
+.joinNowButton h4{
+ font-size : 20px;
+ color : #ffffff;
+ line-height : 47px;
+}
+
+.viewButton a{
+ text-decoration : none;
+ text-align : center;
+}
+
+.joinNowButton a{
+ text-decoration : none;
+ text-align : center;
+}
+
+#bannerBackground{
+ background-color : #4dbbee;
+ height : 470px;
+}
+
+.artFrames{
+ float : right;
+ margin : 49px 5px 0px 0px;
+}
+
+.bannerContainer{
+ width : 940px;
+ margin : 0px auto;
+ font-family :myriad pro,arial;
+} 
+
+.bannerContent{
+ float : left;
+}
+
+#contentBackground{
+ background-color : #ffffff; 
+ height : 504px;
+}
+
+.contentContainer{
+ width : 940px;
+ padding  : 64px 80px 0px 80px; 
+ margin : 0px auto;
+}
+
+.howItWorks{
+ height : 36px;
+}
+
+.howItWorks h4{
+ font-size : 36px;
+ color : #444444;
+ text-align : center;
+}
+
+#circle{
+ width: 140px;
+ height: 140px; 
+ background-color: #efefef; 
+ border-radius: 75px;
+ float : left;
+}
+
+#circle img{
+ padding : 40px 40px;
+}
+
+.images{
+ padding : 76px 0px 0px 0px;
+ width : 940px;
+ height: 140px;
+}
+
+.images ul li{
+ padding:0px 75px 0px 0px;
+ float : left;
+}
+
+.clearFix{
+ clear : both;
+}
+
