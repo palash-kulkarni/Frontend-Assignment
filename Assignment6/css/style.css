@@ -113,7 +113,6 @@ a.circleSocialIcons{
 }
 
 .header ul.menu{
-	float : right;
 	margin : 20px 0px 0px 0px;
 }
 
@@ -153,10 +152,6 @@ ul.menu li{
 .navigationBackground{
 	background-color : #2e84b3;
 	padding : 18px 0px 20px 0px;
-}
-
-.navigationBackground ul.navigation{
-	float : left;
 }
 
 .navigation li{
