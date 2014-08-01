@@ -170,8 +170,425 @@ ul .floatUlRight li a{
 
 .bannerLeaves{
 	background: url('../images/leaves.png') no-repeat;
-	width : 486px;
-	height : 506px;
+	height : 310px;
+	float : right;
+}
+
+.bannerContent{
+	width : 390px;
+	margin-top : 76px;
+	float : right;
+}
+
+.bannerContent h1{
+	font-size : 28px;
+	line-height : 40px;
+	font-family : georgia bold italic;
+	color : #ffffff;
+	margin-bottom : 74px;
+}
+
+.bannerContent input[type="text"]{
+	font-size : 16px;
+	line-height : 18px;
+	font-family : arial regular;
+	width : 256px;
+	height : 40px;
+	color : #b4b4b4;
+	border-style : solid;
+	border-color : #b4b4b4;
+	border-radius : 4px;
+	padding-left : 9px;
+}
+
+.bannerContent input[type="submit"]{
+	width : 115px;
+	height : 46px;
+	font-size : 16px;
+	line-height : 18px;
+	font-family : arial regular;
+	padding-left : 14px;
+	color : #ffffff;
+	border-style : solid;
+	border-color : #ff6000;
+	border-radius : 4px;
+	background-image: url('../images/buttonGradient.png');
+	background-repeat: repeat; 
+	
+}
+
+.content{
+	border-bottom : 1px solid #e2e2e2;
+	padding-bottom : 39px;
+}
+
+.contentLeft{
+	width : 236px;
+	margin : 18px 43px 0px 0px;
+	font-size : 12px;
+	line-height : 16px;
+	float : left;
+}
+
+.openingComa{
+	background-image: url('../images/openingComa.png');
+	width : 27px;
+	height : 21px;
+	display : block;
+}
+
+.contentLeftHeading{
+	color : #0076d1;
+}
+
+.contentLeft p{
+	color : #444444;
+	font-family : arial;
+	font-size : 12px;
+	line-height : 16px;
+}
+
+.closingComa{
+	background-image: url('../images/closingComa.png');
+	width : 23px;
+	height : 18px;
+	float : right;
+}
+
+.doctorName{
+	color : #444444;
+	line-height : 20px;
+	float : right;
+}
+
+.midContent{	
+	margin : 28px 58px 0px 0px;
+	font-family : arial;
+	font-size : 12px;
+	line-height : 16x;
+	width : 210px;	
+	float : left;
+}
+
+.midContentHeading{
+	line-height : 18px;
+	color :#444444;
+	margin-bottom : 14px;
+	display : block;
+}
+
+.midContent p{
+	color : #444444;
+}
+
+
+.midContent a{
+	color : #0076d1;
+	float : right;
+}
+
+.contentRight{
+	width : 391px;
+	margin-top : 34px;
+	float : left;
+}
+
+.contentRight p{
+	font-family : georgia italic;
+	font-size : 16px;
+	line-height : 24px;
+	color : #0076d1;
+	margin-bottom : 12px;
+}
+
+.contentRight a{
+	font-size : 22px;
+	line-height : 45px;
+	font-family : arial regular;
+	width : 145px;
+	height : 45px;
+	border-style : solid;
+	border-color : #ff6000;
+	border-radius : 4px;
+	color : #ffffff;
+	background-image: url('../images/signUpGradient.png');
+	background-repeat: repeat; 
+	float : right;
+	text-align : center;
+}
+
+.footer{
+	padding : 19px 0px 192px 0px;
+	color : #444444;
+	font-family : arial regular;
+}
+
+.company{
+		font-size : 12px;
+		line-height : 18px;
+		float : left;
+		width : 129px;
+		margin-right : 42px;
+}
+
+.company span{
+	margin-bottom : 5px;
+	display : block;
+}
+
+.company ul li{	
+	font-size : 12px;
+	line-height : 14px;
+	border-top : 1px dashed #e2e2e2;
+	border-bottom : 1px dashed #e2e2e2;
+	padding : 9px 0px 8px 0px;
+}
+
+.footer .wrapper a{
+	color : #0077cc;
+}
+
+
+.findRemedy{
+		font-size : 12px;
+		line-height : 18px;
+		float : left;
+		width : 129px;
+		margin-right : 42px;
+}
+
+.findRemedy span{
+	margin-bottom : 5px;
+	display : block;
+}
+
+.findRemedy ul li{	
+	font-size : 12px;
+	line-height : 14px;
+	border-top : 1px dashed #e2e2e2;
+	border-bottom : 1px dashed #e2e2e2;
+	padding : 9px 0px 8px 0px;
+}
+
+.findMedicines{
+		font-size : 12px;
+		line-height : 18px;
+		float : left;
+		width : 129px;
+		margin-right : 42px;
+}
+
+.findMedicines span{
+	margin-bottom : 5px;
+	display : block;
+}
+
+.findMedicines ul li{	
+	font-size : 12px;
+	line-height : 14px;
+	border-top : 1px dashed #e2e2e2;
+	border-bottom : 1px dashed #e2e2e2;
+	padding : 9px 0px 8px 0px;
+}
+
+.healthInfo{
+		font-size : 12px;
+		line-height : 18px;
+		float : left;
+		width : 129px;
+		margin-right : 0px;
+}
+
+.healthInfo span{
+	margin-bottom : 5px;
+	display : block;
+}
+
+.healthInfo ul li{	
+	font-size : 12px;
+	line-height : 14px;
+	border-top : 1px dashed #e2e2e2;
+	border-bottom : 1px dashed #e2e2e2;
+	padding : 9px 0px 8px 0px;
+}
+
+.copyright{
+	font-size : 13px;
+	line-height : 18px;
+	float : right;
+}html, body, div, span,
+h1, h2, h3, h4, h5, h6,em, img, q,ol,
+ul, li,table, tr, th,
+td,canvas,footer, header,p{
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ vertical-align:baseline;
+ background:transparent;
+ list-style:none;
+ font-style:normal;
+ font-weight:normal;
+ font-size: 100%;
+ font: inherit;
+}
+
+@font-face {
+    font-family: 'georgia bold italic';
+    src: url('../fonts/georgiabolditalic.eot');
+    src: url('../fonts/georgiabolditalic.eot') format('embedded-opentype'),
+         url('../fonts/georgiabolditalic.woff') format('woff'),
+         url('../fonts/georgiabolditalic.ttf') format('truetype'),
+         url('../fonts/georgiabolditalic.svg#GeorgiaBoldItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'georgia italic';
+    src: url('../fonts/georgiaitalic.eot');
+    src: url('../fonts/georgiaitalic.eot') format('embedded-opentype'),
+         url('../fonts/georgiaitalic.woff') format('woff'),
+         url('../fonts/georgiaitalic.ttf') format('truetype'),
+         url('../fonts/georgiaitalic.svg#GeorgiaItalic') format('svg');
+}
+
+a{
+	text-decoration : none;
+}
+
+.header{
+	background : url('../images/headerGradient.png') repeat;
+}
+
+body{
+	font-family : arial;
+}
+
+.wrapper{
+	width : 940px;
+	margin : 0px auto;
+}
+
+.logo{
+	background : url('../images/logo.png') no-repeat;
+	width : 118px;
+	height : 50px;
+	margin : 10px 0px 15px 0px;
+	float : left;
+}
+
+.floatUlRight li{
+	float : left;
+	margin-right : 5px;
+}
+
+.floatUlRight li.lastSocialIcon{
+	margin-right : 0px;
+}
+
+.floatUlRight{
+	float : right;	
+	margin : 29px 0px 0px 21px;
+}
+
+.loginContactUl{
+	font-family : arial regular;
+	font-size : 12px;
+	line-height : 16px;
+	float : right;
+	margin : 29px 0px 0px 116px;
+}
+
+.loginContactUl li{
+	padding-left : 21px;
+	float : left;
+}
+
+ul li a.contactIcon{
+	background: url('../images/callIcon.png') left no-repeat;
+}
+
+.loginContactUl li a{
+	padding-left : 21px;
+	display : block;
+	font-size : 12px;
+	line-height : 16px;
+	color : #0077cc;
+}
+
+.loginIcon{
+	background: url('../images/loginIcon.png') left no-repeat;
+}
+
+.loginContactUl li.endLoginContactLi{
+	margin-right : 0px;
+}
+
+.headerNavigationUl{
+	margin : 24px 0px 0px 0px;
+	float : right;
+}
+
+.headerNavigationUl li{
+	margin-right : 37px;
+	float : left;
+}
+
+li a.liHome{
+	font-size : 14px;
+	line-height : 24px;
+	font-family : arial regular;
+	color : #000000;
+}
+
+li a.remainingMenu{
+	font-size : 14px;
+	line-height : 24px;
+	font-family : arial regular;
+	color : #0077cc;
+}
+
+.headerNavigationUl li.endMenuLi{
+	margin-right : 0px;
+}
+
+.clearFix{
+	float : none;
+	clear : both;
+}
+ul .floatUlRight li a{
+	display : block;
+}
+
+.facebookIcon{
+	background: url('../images/facebookIcon.png') center center no-repeat;
+	width : 15px;
+	height : 16px;
+	display : 	block;
+}
+
+.twitterIcon{
+	background: url('../images/twitterIcon.png') center center no-repeat;
+	width : 15px;
+	height : 16px;
+	display : block;
+}
+
+.bannerBackground{
+	height : 310px;
+	background-color : #0064a4;
+}
+
+.bannerImage{
+	background: url('../images/bannerImage.png') no-repeat;
+	width : 463px;
+	height : 242px;
+	float : left;
+	margin : 40px 0px 0px 0px;
+}
+
+.bannerLeaves{
+	background: url('../images/leaves.png') no-repeat;
+	height : 310px;
 	float : right;
 }
 
@@ -418,4 +835,3 @@ ul .floatUlRight li a{
 	line-height : 18px;
 	float : right;
 }
-
