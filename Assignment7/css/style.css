@@ -171,13 +171,12 @@ ul .floatUlRight li a{
 .bannerLeaves{
 	background: url('../images/leaves.png') no-repeat;
 	height : 310px;
-	float : right;
+	float : left;
 }
 
 .bannerContent{
 	width : 390px;
 	margin-top : 76px;
-	float : right;
 }
 
 .bannerContent h1{
